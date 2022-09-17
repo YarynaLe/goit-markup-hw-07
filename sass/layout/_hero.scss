@@ -10,15 +10,13 @@
 }
 
 .backgroud-section__container {
-    display: flex;
+    @include flexCenter;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
 .header-single {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
@@ -28,7 +26,7 @@
 }
 
 .modal-open-btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;

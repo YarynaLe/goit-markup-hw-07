@@ -11,11 +11,9 @@
 .menu-speciality__container-icons {
     background: var(--background-light-btn);
     border-radius: 4px;
-    display: flex;
-    justify-content: center;
+    @include flexCenter;
     height: 120px;
     margin-bottom: 30px;
-    align-items: center;
 }
 
 .menu-speciality__box-icons {
@@ -23,7 +21,7 @@
 }
 
 .header-speciality {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -34,7 +32,7 @@
 }
 
 .about-spesiality {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

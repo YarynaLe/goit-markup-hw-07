@@ -23,7 +23,7 @@
 }
 
 .header-name-team {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 16px;
     line-height: 1.18;
     font-weight: 500;
@@ -33,7 +33,7 @@
 }
 
 .about-team {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.8;
@@ -42,21 +42,17 @@
 }
 
 .menu-socials-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter;
     gap: 10px;
     margin-top: 16px;
 }
 
 .menu-socials-icons__link {
-    display: flex;
-    justify-content: center;
+    @include flexCenter;
     width: 44px;
     height: 44px;
     background-color: var(--white-color);
     border-radius: 50%;
-    align-items: center;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,

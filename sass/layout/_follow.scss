@@ -3,7 +3,7 @@
 }
 
 .title-follow {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -19,7 +19,7 @@
 
 .modal-form-follow {
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
@@ -32,7 +32,7 @@
 }
 
 .modal-form-input-follow {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
@@ -49,7 +49,7 @@
 }
 
 .modal-form-submit-follow {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 700;
     font-size: 16px;
     align-self: center;

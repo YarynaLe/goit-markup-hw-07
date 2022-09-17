@@ -31,9 +31,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexCenter;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -50,7 +48,7 @@
 
 
 .modal-form-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 20px;
     line-height: 1.15;
     font-weight: 700;
@@ -72,7 +70,7 @@
 
 .modal-form-field-desc {
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 12px;
     line-height: 1.16;
     font-weight: 400;
@@ -87,7 +85,7 @@
 }
 
 .modal-form-input {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 12px;
     font-weight: 400;
     color: var(--color-dark);
@@ -118,7 +116,7 @@
 }
 
 .modal-form-message {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 12px;
     font-weight: 400;
     color: var(--color-dark);
@@ -141,9 +139,7 @@
 }
 
 .modal-form-check-field {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexCenter;
     margin-bottom: 30px;
 }
 
@@ -174,7 +170,7 @@
 
 .modal-check-policy {
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 14px;
     line-height: 1.7;
     font-weight: 400;
@@ -198,7 +194,7 @@
 }
 
 .modal-form-submit {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 700;
     font-size: 16px;
     align-self: center;

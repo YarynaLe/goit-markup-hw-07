@@ -1,14 +1,12 @@
 .menu-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexCenter;
     margin-bottom: 50px;
 }
 
 .menu-button-item {
     background-color: var(--background-light-btn);
     color: var(--color-dark);
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -61,12 +59,10 @@
     width: 100%;
     padding-left: 24px;
     padding-right: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter;
     background-color: rgba(33, 150, 243, 0.9);
     color: var(--white-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
@@ -89,7 +85,7 @@
 }
 
 .header-portfolio {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -99,7 +95,7 @@
 }
 
 .portfolio-page {
-    font-family: 'Roboto', sans-serif;
+    font-family: $fontPrimary;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.87;

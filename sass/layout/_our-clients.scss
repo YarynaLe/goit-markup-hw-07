@@ -1,6 +1,5 @@
 .our-clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+@extend %section;
 }
 
 .menu-clients {
@@ -15,9 +14,7 @@
 }
 
 .menu-clients__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexCenter;
     height: 92px;
     border: 1px solid var(--client-border);
     border-radius: 4px;
